@@ -295,18 +295,21 @@ export const jqueryFuntion = () => {
         const element = this;
         const scrollHeight = element.scrollHeight;
         const clientHeight = element.clientHeight;
+        const scrollTop = element.scrollTop;
+        const nativeEvent = event.originalEvent || event;
+        const deltaY =
+          nativeEvent.deltaY || (nativeEvent.wheelDelta ? -nativeEvent.wheelDelta : 0);
 
         if (scrollHeight <= clientHeight) {
           return;
         }
 
-        event.stopPropagation();
-      });
+        const scrollingUp = deltaY < 0;
+        const scrollingDown = deltaY > 0;
+        const atTop = scrollTop <= 0;
+        const atBottom = scrollTop + clientHeight >= scrollHeight - 1;
 
-    $(".swiper-portfolio")
-      .off("wheel.portfolioSwiper mousewheel.portfolioSwiper")
-      .on("wheel.portfolioSwiper mousewheel.portfolioSwiper", function (event) {
-        if ($(window).width() <= 1024) {
+        if ((scrollingUp && atTop) || (scrollingDown && atBottom)) {
           return;
         }
 
@@ -328,6 +331,5 @@ export const jqueryFuntion = () => {
     $(".portfolio .single-item .details").off(
       "wheel.portfolioDetails mousewheel.portfolioDetails"
     );
-    $(".swiper-portfolio").off("wheel.portfolioSwiper mousewheel.portfolioSwiper");
   };
 };

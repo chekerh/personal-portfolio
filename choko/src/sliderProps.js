@@ -21,7 +21,7 @@ SwiperCore.use([
 
 export const salimovSlider = {
   portfolio: {
-    loop: true,
+    loop: false,
     speed: 850,
     nested: true,
     mousewheel: {

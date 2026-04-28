@@ -169,6 +169,116 @@ export const featuredProjects = [
       "A human-centered cognitive care platform concept that strengthens the social-impact side of the portfolio and product vision.",
     link: "https://github.com/chekerh/CogniCare",
   },
+  {
+    title: "graphify",
+    image: "assets/portfolio/project-1.jpg",
+    type: "Developer Tooling",
+    ecosystem: "Knowledge graph and code analysis workflows",
+    focus: "Multimodal codebase understanding and graph-driven tooling",
+    stack: "Python, packaging, graph workflows, developer infrastructure",
+    summary:
+      "A technical tooling project that adds depth to the portfolio through code analysis, graph-oriented thinking, and developer-focused architecture.",
+    link: "https://github.com/chekerh/graphify",
+  },
+  {
+    title: "TrustKit",
+    image: "assets/portfolio/project-2.jpg",
+    type: "SaaS Platform",
+    ecosystem: "Testimonial collection, widgets, and trust automation",
+    focus: "Conversion support for businesses that need social proof systems",
+    stack: "Flask, SaaS workflows, widget delivery, billing foundations",
+    summary:
+      "A trust-focused SaaS product showing productized widgets, operations thinking, and commercial features beyond a simple brochure app.",
+    link: "",
+  },
+  {
+    title: "PricePilot",
+    image: "assets/portfolio/project-3.jpg",
+    type: "Commercial SaaS",
+    ecosystem: "Pricing intelligence and admin workflows",
+    focus: "Business decision support and monetized product structure",
+    stack: "React, Vite, NestJS, Prisma, PostgreSQL, Stripe",
+    summary:
+      "A pricing-oriented SaaS direction that reinforces product operations, billing readiness, and structured business tooling.",
+    link: "",
+  },
+  {
+    title: "Local-Arcads",
+    image: "assets/portfolio/project-1.jpg",
+    type: "Directed Product",
+    ecosystem: "Local-first AI ad-generation platform",
+    focus: "Cross-hardware media generation, runtime profiles, monetization",
+    stack: "Python, web app, architecture docs, product systems",
+    summary:
+      "An in-development ecosystem product with serious architecture, runtime planning, and monetization thinking behind the build direction.",
+    link: "",
+  },
+  {
+    title: "FlashForge",
+    image: "assets/portfolio/project-2.jpg",
+    type: "Directed Product",
+    ecosystem: "Local-first short-video production pipeline",
+    focus: "API, web, shared pipeline, and AI-enabled media workflows",
+    stack: "Python, web app, shared packages, pipeline architecture",
+    summary:
+      "A supervised media-production system designed as a real product pipeline, not just a raw AI experiment.",
+    link: "",
+  },
+  {
+    title: "YouClipper",
+    image: "assets/portfolio/project-3.jpg",
+    type: "Directed Product",
+    ecosystem: "Short-form content workflow system",
+    focus: "Clip generation, editing flows, and delivery supervision",
+    stack: "Frontend, backend, AI editor services, workflow architecture",
+    summary:
+      "A short-form content product direction that shows how I supervise multi-surface execution across frontend, backend, and editing workflows.",
+    link: "",
+  },
+  {
+    title: "Attaque",
+    image: "assets/portfolio/project-1.jpg",
+    type: "Security-Oriented Platform",
+    ecosystem: "Protect, learn, and community product model",
+    focus: "Operational security workflows and platform structure",
+    stack: "Fastify, Prisma, PostgreSQL, Redis, BullMQ",
+    summary:
+      "A systems-heavy platform with async infrastructure, operational backend thinking, and a stronger technical profile than standard CRUD products.",
+    link: "",
+  },
+  {
+    title: "UberMoto",
+    image: "assets/portfolio/project-2.jpg",
+    type: "Mobility Product",
+    ecosystem: "Delivery and logistics workflows",
+    focus: "Tracking, dispatching, and platform coordination",
+    stack: "Mobile workflows, NestJS backend, operations architecture",
+    summary:
+      "A marketplace and logistics direction that adds mobility, dispatch, and system coordination to the portfolio.",
+    link: "https://github.com/chekerh/ubermoto",
+  },
+  {
+    title: "SignLik",
+    image: "assets/portfolio/project-3.jpg",
+    type: "Accessibility Product",
+    ecosystem: "ML, backend, frontend, and social-impact direction",
+    focus: "Sign-language and accessibility-oriented product systems",
+    stack: "AI/ML workflows, app ecosystem planning, social-impact tech",
+    summary:
+      "An accessibility-focused product ecosystem that highlights applied AI, humanitarian motivation, and coordinated multi-part development.",
+    link: "",
+  },
+  {
+    title: "WayFinder",
+    image: "assets/portfolio/project-1.jpg",
+    type: "Directed Product",
+    ecosystem: "Mobile and logistics product direction",
+    focus: "Navigation, coordination, and field-operations thinking",
+    stack: "Mobile product planning, backend architecture, delivery workflows",
+    summary:
+      "A supervised mobile product direction that expands the portfolio beyond SaaS into movement, coordination, and real-world operational use cases.",
+    link: "",
+  },
 ];
 
 export const positioningCards = [
