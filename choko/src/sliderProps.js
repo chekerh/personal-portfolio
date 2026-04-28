@@ -28,7 +28,9 @@ export const salimovSlider = {
       enabled: true,
       forceToAxis: true,
       releaseOnEdges: true,
-      sensitivity: 0.7,
+      thresholdDelta: 12,
+      thresholdTime: 180,
+      sensitivity: 0.45,
     },
     navigation: {
       nextEl: ".next-item",

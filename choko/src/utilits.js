@@ -159,10 +159,10 @@ export const jqueryFuntion = () => {
           advanced: {
             autoExpandHorizontalScroll: true,
           },
-          scrollInertia: 700,
+          scrollInertia: 520,
           mouseWheel: {
-            deltaFactor: 90,
-            scrollAmount: 120,
+            deltaFactor: 36,
+            scrollAmount: 70,
           },
           callbacks: {
             whileScrolling: function () {
@@ -302,6 +302,16 @@ export const jqueryFuntion = () => {
 
         event.stopPropagation();
       });
+
+    $(".swiper-portfolio")
+      .off("wheel.portfolioSwiper mousewheel.portfolioSwiper")
+      .on("wheel.portfolioSwiper mousewheel.portfolioSwiper", function (event) {
+        if ($(window).width() <= 1024) {
+          return;
+        }
+
+        event.stopPropagation();
+      });
   });
 
   return () => {
@@ -318,5 +328,6 @@ export const jqueryFuntion = () => {
     $(".portfolio .single-item .details").off(
       "wheel.portfolioDetails mousewheel.portfolioDetails"
     );
+    $(".swiper-portfolio").off("wheel.portfolioSwiper mousewheel.portfolioSwiper");
   };
 };

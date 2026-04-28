@@ -7,22 +7,22 @@ const Home = () => {
         <div className="position-relative">
           <span className="home-kicker animated-layer">{profile.name}</span>
           <h1>
-            <span className="position-relative">
+            <span>
               <span className="animated-layer">Builder</span>
-              <span className="intro animated-layer">{profile.heroRole}</span>
             </span>
             <span>
               <span className="animated-layer">for serious product systems</span>
             </span>
           </h1>
-          <p className="home-target animated-layer fade-in-up-animation fadeInUp wow">
-            {profile.target}
-          </p>
+          <div className="home-meta animated-layer fade-in-up-animation fadeInUp wow">
+            <span className="intro">{profile.heroRole}</span>
+            <span className="home-target">{profile.target}</span>
+          </div>
           <p className="animated-layer fade-in-up-animation fadeInUp wow">
             {profile.headline}
           </p>
           <ul className="animated-layer fade-in-up-animation fadeInUp wow">
-            {strengths.map((strength) => (
+            {strengths.slice(0, 3).map((strength) => (
               <li key={strength}>{strength}</li>
             ))}
           </ul>

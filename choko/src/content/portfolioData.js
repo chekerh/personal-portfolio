@@ -5,7 +5,7 @@ export const profile = {
   heroRole: "Builder + director",
   role: "Product operator and software builder turning ideas into structured, launchable apps with technical supervision and delivery systems.",
   headline:
-    "I originate product ideas, turn them into Jira-driven delivery plans, supervise technical execution, and push teams toward launch across SaaS, mobile, backend systems, and applied AI products.",
+    "I turn product ideas into Jira-structured execution, supervise technical delivery, and help push serious SaaS, tooling, mobile, and AI systems toward launch.",
   location: "Ariana, Tunisia",
   target:
     "Open to software engineering, product delivery, technical project leadership, and operator-builder roles in Greece and remote-first teams.",
@@ -18,7 +18,7 @@ export const profile = {
 };
 
 export const strengths = [
-  "Product ideation to delivery structure",
+  "11 years of hands-on coding",
   "Jira-based planning and sprint orchestration",
   "Technical supervision across multiple apps",
   "Launch-ready SaaS and workflow systems",
