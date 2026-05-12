@@ -73,21 +73,22 @@ export const experience = [
 ];
 
 export const stats = [
-  { value: "23", label: "public repositories", sublabel: "on GitHub" },
-  { value: "8", label: "flagship product", sublabel: "case studies" },
-  { value: "4+", label: "years of active", sublabel: "delivery experience" },
-  { value: "2026", label: "graduation", sublabel: "target year" },
-  { value: "IEEE", label: "active challenge", sublabel: "and team work" },
+  { value: "11", label: "years", sublabel: "coding depth" },
+  { value: "Multi-product", label: "delivery", sublabel: "boards and supervision" },
+  { value: "SaaS + AI", label: "system range", sublabel: "tooling and product bets" },
+  { value: "3", label: "languages", sublabel: "Arabic, French, English" },
 ];
 
 export const featuredProjects = [
   {
-    title: "MyOwnCursor",
+    title: "Sahara",
+    legacyName: "MyOwnCursor",
     image: "assets/portfolio/myowncursor-card.png",
     type: "AI Developer Tool",
     ecosystem: "Electron desktop app + local services",
     focus: "Agent workflows, editor tooling, local-first AI",
     stack: "Electron, React, TypeScript, Monaco, Express, SQLite",
+    badge: "Flagship",
     summary:
       "A serious developer product case study showing technical depth, local-first architecture, and the ability to supervise ambitious tool-building beyond standard CRUD apps.",
     link: "https://github.com/chekerh/MyOwnCursor",
@@ -99,6 +100,7 @@ export const featuredProjects = [
     ecosystem: "Lead capture, mini CRM, WhatsApp-first flows",
     focus: "Small-business SaaS for Tunisian service companies",
     stack: "Next.js 16, React 19, Prisma, PostgreSQL, Clerk",
+    badge: "Flagship",
     summary:
       "A polished SaaS system built with product structure in mind: demo flow, onboarding logic, tenant-aware dashboards, roadmap thinking, and commercial launch readiness.",
     link: "",
@@ -110,6 +112,7 @@ export const featuredProjects = [
     ecosystem: "Web app + API + async jobs",
     focus: "Used-car trust reports, admin ops, billing foundation",
     stack: "Next.js 15, NestJS 11, Prisma, PostgreSQL, Redis, BullMQ",
+    badge: "Flagship",
     summary:
       "A production-oriented verification platform that demonstrates structured planning, admin-heavy operations, async workflows, and strong end-to-end supervision.",
     link: "",
@@ -121,6 +124,7 @@ export const featuredProjects = [
     ecosystem: "Clinic operations and multi-tenant workflows",
     focus: "Patient, staff, and admin management",
     stack: "React, TypeScript, Vite, Express, Prisma, SQLite",
+    badge: "Top support",
     summary:
       "A complete healthcare operations product that shows how I structure role-aware workflows, admin control surfaces, and product maturity for real business cases.",
     link: "",
@@ -132,6 +136,7 @@ export const featuredProjects = [
     ecosystem: "Frontend + backend + shared package",
     focus: "Resume review and rewriting workflows",
     stack: "React, TypeScript, Node.js, Express, MongoDB",
+    badge: "Support",
     summary:
       "A career-focused product with shared architecture, product documentation, and a clear delivery story from concept to workflow-backed execution.",
     link: "",
@@ -143,6 +148,7 @@ export const featuredProjects = [
     ecosystem: "Desktop business management",
     focus: "Inventory, workforce, sales, and AI-driven insights",
     stack: "Java, MySQL, desktop application architecture",
+    badge: "Support",
     summary:
       "A business operations suite built around real commercial pain points, showing my preference for practical systems that improve decisions and reduce chaos.",
     link: "https://github.com/chekerh/MatelasFlow",
@@ -154,6 +160,7 @@ export const featuredProjects = [
     ecosystem: "Arduino reader, listener, dashboard, reporting",
     focus: "Attendance automation for real teams",
     stack: "Arduino, Python, Flask, SQLite, reporting automation",
+    badge: "Support",
     summary:
       "An end-to-end attendance system that proves I can organize hardware, software, reporting, and operational value into one coherent delivery.",
     link: "",
@@ -165,119 +172,10 @@ export const featuredProjects = [
     ecosystem: "Caregiver, mobile, and dashboard direction",
     focus: "Social-impact product design and accessibility",
     stack: "Product architecture, web and mobile ecosystem thinking",
+    badge: "Directed product",
     summary:
       "A human-centered cognitive care platform concept that strengthens the social-impact side of the portfolio and product vision.",
     link: "https://github.com/chekerh/CogniCare",
-  },
-  {
-    title: "graphify",
-    image: "assets/portfolio/project-1.jpg",
-    type: "Developer Tooling",
-    ecosystem: "Knowledge graph and code analysis workflows",
-    focus: "Multimodal codebase understanding and graph-driven tooling",
-    stack: "Python, packaging, graph workflows, developer infrastructure",
-    summary:
-      "A technical tooling project that adds depth to the portfolio through code analysis, graph-oriented thinking, and developer-focused architecture.",
-    link: "https://github.com/chekerh/graphify",
-  },
-  {
-    title: "TrustKit",
-    image: "assets/portfolio/project-2.jpg",
-    type: "SaaS Platform",
-    ecosystem: "Testimonial collection, widgets, and trust automation",
-    focus: "Conversion support for businesses that need social proof systems",
-    stack: "Flask, SaaS workflows, widget delivery, billing foundations",
-    summary:
-      "A trust-focused SaaS product showing productized widgets, operations thinking, and commercial features beyond a simple brochure app.",
-    link: "",
-  },
-  {
-    title: "PricePilot",
-    image: "assets/portfolio/project-3.jpg",
-    type: "Commercial SaaS",
-    ecosystem: "Pricing intelligence and admin workflows",
-    focus: "Business decision support and monetized product structure",
-    stack: "React, Vite, NestJS, Prisma, PostgreSQL, Stripe",
-    summary:
-      "A pricing-oriented SaaS direction that reinforces product operations, billing readiness, and structured business tooling.",
-    link: "",
-  },
-  {
-    title: "Local-Arcads",
-    image: "assets/portfolio/project-1.jpg",
-    type: "Directed Product",
-    ecosystem: "Local-first AI ad-generation platform",
-    focus: "Cross-hardware media generation, runtime profiles, monetization",
-    stack: "Python, web app, architecture docs, product systems",
-    summary:
-      "An in-development ecosystem product with serious architecture, runtime planning, and monetization thinking behind the build direction.",
-    link: "",
-  },
-  {
-    title: "FlashForge",
-    image: "assets/portfolio/project-2.jpg",
-    type: "Directed Product",
-    ecosystem: "Local-first short-video production pipeline",
-    focus: "API, web, shared pipeline, and AI-enabled media workflows",
-    stack: "Python, web app, shared packages, pipeline architecture",
-    summary:
-      "A supervised media-production system designed as a real product pipeline, not just a raw AI experiment.",
-    link: "",
-  },
-  {
-    title: "YouClipper",
-    image: "assets/portfolio/project-3.jpg",
-    type: "Directed Product",
-    ecosystem: "Short-form content workflow system",
-    focus: "Clip generation, editing flows, and delivery supervision",
-    stack: "Frontend, backend, AI editor services, workflow architecture",
-    summary:
-      "A short-form content product direction that shows how I supervise multi-surface execution across frontend, backend, and editing workflows.",
-    link: "",
-  },
-  {
-    title: "Attaque",
-    image: "assets/portfolio/project-1.jpg",
-    type: "Security-Oriented Platform",
-    ecosystem: "Protect, learn, and community product model",
-    focus: "Operational security workflows and platform structure",
-    stack: "Fastify, Prisma, PostgreSQL, Redis, BullMQ",
-    summary:
-      "A systems-heavy platform with async infrastructure, operational backend thinking, and a stronger technical profile than standard CRUD products.",
-    link: "",
-  },
-  {
-    title: "UberMoto",
-    image: "assets/portfolio/project-2.jpg",
-    type: "Mobility Product",
-    ecosystem: "Delivery and logistics workflows",
-    focus: "Tracking, dispatching, and platform coordination",
-    stack: "Mobile workflows, NestJS backend, operations architecture",
-    summary:
-      "A marketplace and logistics direction that adds mobility, dispatch, and system coordination to the portfolio.",
-    link: "https://github.com/chekerh/ubermoto",
-  },
-  {
-    title: "SignLik",
-    image: "assets/portfolio/project-3.jpg",
-    type: "Accessibility Product",
-    ecosystem: "ML, backend, frontend, and social-impact direction",
-    focus: "Sign-language and accessibility-oriented product systems",
-    stack: "AI/ML workflows, app ecosystem planning, social-impact tech",
-    summary:
-      "An accessibility-focused product ecosystem that highlights applied AI, humanitarian motivation, and coordinated multi-part development.",
-    link: "",
-  },
-  {
-    title: "WayFinder",
-    image: "assets/portfolio/project-1.jpg",
-    type: "Directed Product",
-    ecosystem: "Mobile and logistics product direction",
-    focus: "Navigation, coordination, and field-operations thinking",
-    stack: "Mobile product planning, backend architecture, delivery workflows",
-    summary:
-      "A supervised mobile product direction that expands the portfolio beyond SaaS into movement, coordination, and real-world operational use cases.",
-    link: "",
   },
 ];
 

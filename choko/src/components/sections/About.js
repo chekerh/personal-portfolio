@@ -1,5 +1,20 @@
 import { experience, infoPoints, profile, skills } from "@/src/content/portfolioData";
 
+const skillIcons = {
+  Java: "devicon-java-plain colored",
+  JavaScript: "devicon-javascript-plain colored",
+  TypeScript: "devicon-typescript-plain colored",
+  Python: "devicon-python-plain colored",
+  "Next.js": "devicon-nextjs-original-wordmark",
+  React: "devicon-react-original colored",
+  NestJS: "devicon-nestjs-plain colored",
+  "Spring Boot": "devicon-spring-plain colored",
+  PostgreSQL: "devicon-postgresql-plain colored",
+  MongoDB: "devicon-mongodb-plain colored",
+  Android: "devicon-android-plain colored",
+  SwiftUI: "devicon-swift-plain colored",
+};
+
 const About = () => {
   return (
     <section className="about main-section flex-column-mobile" id="about">
@@ -77,13 +92,13 @@ const About = () => {
             <div key={primary}>
               <div className="animated-layer fade-in-down-animation fadeInLeft wow">
                 <span>
-                  <i className="devicon-code-plain" />
+                  <i className={skillIcons[primary] || "devicon-code-plain"} />
                 </span>
                 <h4>{primary}</h4>
               </div>
               <div className="animated-layer fade-in-up-animation fadeInRight wow">
                 <span>
-                  <i className="devicon-code-plain" />
+                  <i className={skillIcons[secondary] || "devicon-code-plain"} />
                 </span>
                 <h4>{secondary}</h4>
               </div>

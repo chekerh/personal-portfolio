@@ -175,10 +175,92 @@
   line-height: 1.7;
 }
 
+.about .skills > div > div > div span {
+  background: linear-gradient(145deg, rgba(255, 255, 255, 0.07), rgba(255, 255, 255, 0.02));
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.about .skills > div > div > div span i {
+  font-size: 40px;
+  line-height: 1;
+}
+
+.about .skills > div > div > div h4 {
+  max-width: 120px;
+  text-align: center;
+  line-height: 1.35;
+}
+
+.facts > div > div > div {
+  width: 220px;
+  height: 220px;
+}
+
+.facts > div > div > div > div {
+  width: 76%;
+}
+
+.facts > div > div > div > div h3 {
+  font-size: 48px;
+  line-height: 0.95;
+  margin-bottom: 14px;
+}
+
+.facts > div > div > div > div p {
+  font-size: 18px;
+  line-height: 1.18;
+}
+
+.facts > div > div > div > div p span {
+  margin-top: 10px;
+  font-size: 17px;
+  line-height: 1.35;
+  color: rgba(255, 255, 255, 0.74);
+}
+
 .portfolio .single-item .details p {
   color: rgba(255, 255, 255, 0.82);
   line-height: 1.7;
   margin: 18px 0 22px;
+}
+
+.portfolio .single-item .details {
+  white-space: normal;
+}
+
+.portfolio .single-item .details .project-badge {
+  display: inline-flex;
+  margin-bottom: 14px;
+  padding: 7px 12px;
+  border-radius: 999px;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  background: rgba(255, 255, 255, 0.04);
+  color: rgba(255, 255, 255, 0.76);
+  font-size: 0.78rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.portfolio .single-item .details .project-legacy-name {
+  display: block;
+  margin-top: -10px;
+  margin-bottom: 16px;
+  color: rgba(255, 255, 255, 0.56);
+  font-size: 0.9rem;
+}
+
+.portfolio .single-item .details h4 {
+  white-space: normal;
+  line-height: 1;
+}
+
+.portfolio .single-item .details ul li {
+  line-height: 1.65;
+  padding: 6px 0;
+}
+
+.portfolio .single-item .details ul li > span:nth-child(2) {
+  display: inline;
 }
 
 @media screen and (min-width: 1025px) {
@@ -221,6 +303,23 @@
 @media screen and (max-width: 767px) {
   .home > div {
     padding: 0 24px;
+  }
+
+  .facts > div > div > div {
+    width: 180px;
+    height: 180px;
+  }
+
+  .facts > div > div > div > div h3 {
+    font-size: 36px;
+  }
+
+  .facts > div > div > div > div p {
+    font-size: 15px;
+  }
+
+  .facts > div > div > div > div p span {
+    font-size: 14px;
   }
 
   .home .home-kicker {

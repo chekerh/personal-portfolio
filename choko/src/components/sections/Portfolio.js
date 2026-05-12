@@ -25,7 +25,9 @@ const Portfolio = () => {
               <img className="img-fluid" src={project.image} alt={project.title} />
             </div>
             <div className="details">
+              {project.badge ? <span className="project-badge">{project.badge}</span> : null}
               <h4>{project.title}</h4>
+              {project.legacyName ? <span className="project-legacy-name">Previously shown as {project.legacyName}</span> : null}
               <p>{project.summary}</p>
               <div>
                 <ul>
